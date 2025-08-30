@@ -1,0 +1,16 @@
+{
+  "rooms": [
+    { "id": 1, "type": "Deluxe", "price": 200, "available": true },
+    { "id": 2, "type": "Standard", "price": 100, "available": false },
+    { "id": 3, "type": "Suite", "price": 300, "available": true }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "roomId": 1,
+      "guestName": "John Doe",
+      "checkIn": "2025-09-01",
+      "checkOut": "2025-09-05"
+    }
+  ]
+}
