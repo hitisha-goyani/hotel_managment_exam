@@ -1,16 +1,36 @@
 {
   "rooms": [
-    { "id": 1, "type": "Deluxe", "price": 200, "available": true },
-    { "id": 2, "type": "Standard", "price": 100, "available": false },
-    { "id": 3, "type": "Suite", "price": 300, "available": true }
+    {
+      "id": "1",
+      "type": "Single",
+      "price": 50,
+      "features": [
+        "WiFi",
+        "TV"
+      ],
+      "available": true,
+      "image": "https://picsum.photos/200?random=1"
+    },
+    {
+      "id": "2",
+      "type": "Double",
+      "price": 80,
+      "features": [
+        "WiFi",
+        "TV",
+        "Balcony"
+      ],
+      "available": true,
+      "image": "https://picsum.photos/200?random=2"
+    }
   ],
   "reservations": [
     {
-      "id": 1,
-      "roomId": 1,
-      "guestName": "John Doe",
-      "checkIn": "2025-09-01",
-      "checkOut": "2025-09-05"
+      "id": "f3b2",
+      "roomId": "1",
+      "guestName": "hitisha",
+      "checkIn": "2025-10-03",
+      "checkOut": "2025-10-10"
     }
   ]
 }
